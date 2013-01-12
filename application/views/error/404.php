@@ -104,6 +104,8 @@
 
 			<h1><?php echo $messages[mt_rand(0, 2)]; ?></h1>
 
+			<img src="img/404.jpg" alt="404">
+
 			<h2>Server Error: 404 (Not Found)</h2>
 
 			<hr>
