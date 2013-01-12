@@ -30,9 +30,9 @@ class Teste_Controller extends Base_Controller {
 	|
 	*/
 
-	public function action_index()
+	public function action_quero($dindin, $money)
 	{
-		return View::make('teste.dindin');
+		return "Eu quero $dindin, um monte de $money";
 	}
 
 }
