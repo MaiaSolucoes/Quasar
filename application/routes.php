@@ -37,8 +37,8 @@ Route::get('/', function()
 	return View::make('home.index');
 });
 
-Route::get('teste', function() {
-	return 'Eu quero um dindin';
+Route::get('teste/(:any)', function($nome, $sexo) {
+	return "Eu quero um dindin do $nome - $sexo";
 });
 
 /*
