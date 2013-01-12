@@ -37,9 +37,7 @@ Route::get('/', function()
 	return View::make('home.index');
 });
 
-Route::get('teste/(:any)/(:any)', function($nome, $sexo) {
-	return "Eu quero um dindin do $nome - $sexo";
-});
+Route::controller('teste');
 
 /*
 |--------------------------------------------------------------------------
