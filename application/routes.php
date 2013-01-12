@@ -37,7 +37,7 @@ Route::get('/', function()
 	return View::make('home.index');
 });
 
-Route::controller('teste');
+Route::controller(Controller::detect());
 
 /*
 |--------------------------------------------------------------------------
