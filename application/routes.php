@@ -37,6 +37,10 @@ Route::get('/', function()
 	return View::make('home.index');
 });
 
+Route::get('teste', function() {
+	return 'Eu quero um dindin';
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers
