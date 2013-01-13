@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Error 404 - Not Found</title>
+	<title>404 - N&atilde;o encontrado</title>
 	<meta name="viewport" content="width=device-width">
 	<style type="text/css">
 		@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
@@ -100,27 +100,27 @@
 	<div class="wrapper">
 		<div class="error-spacer"></div>
 		<div role="main" class="main">
-			<?php $messages = array('We need a map.', 'I think we\'re lost.', 'We took a wrong turn.'); ?>
+			<?php $messages = array('Mapeamento necess&aacute;rio.', 'Eu acho que estamos perdidos.', 'Algo deu errado.'); ?>
 
 			<h1><?php echo $messages[mt_rand(0, 2)]; ?></h1>
 
-			<img src="img/404.jpg" alt="404">
+			<img src="/img/404.jpg" alt="404">
 
-			<h2>Server Error: 404 (Not Found)</h2>
+			<h2>Erro do servidor: 404 (N&atilde;o encontrado)</h2>
 
 			<hr>
 
-			<h3>What does this mean?</h3>
+			<h3>O que isso significa?</h3>
 
 			<p>
-				We couldn't find the page you requested on our servers. We're really sorry
-				about that. It's our fault, not yours. We'll work hard to get this page
-				back online as soon as possible.
+				O recurso que voc&ecirc; solicitou n&atilde;o foi encontrado nos nossos servidores.
+				Sentimos muito por isso. A culpa &eacute; nossa e n&atilde;o sua.
+				Este erro foi registrado no sistema.
 			</p>
 
-			<p>
+			<!-- <p>
 				Perhaps you would like to go to our <?php echo HTML::link('/', 'home page'); ?>?
-			</p>
+			</p> -->
 		</div>
 	</div>
 </body>
