@@ -1,0 +1,6 @@
+
+.error{
+	border-color: rgba(255, 0, 0, 0.50);
+	border-width: thin;
+	border-style: groove;
+}
