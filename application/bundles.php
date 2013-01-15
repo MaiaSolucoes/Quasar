@@ -37,6 +37,5 @@ return array(
 
 	'docs' => array('handles' => 'docs'),
 	'bootstrapper' => array('auto' => true),
-	'anbu' => array('auto' => false)
 
 );
