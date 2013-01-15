@@ -2,26 +2,16 @@
 
 @section('content')
 
-	{{ Form::open(URL::to('blog/add')) }}
 
-		@if($errors->has('description'))
-			@foreach($errors->get('description', '<div class="error">:message</div>') as $error)
-				{{ $error }}
-			@endforeach
-		@endif
-		{{ Form::label('description-label', 'Descrição') }} <br />
-		{{ Form::text('description', Input::old('description'), $errors->has('description') ? array('class' => 'error') : array()) }} <br />
+<div class="container">
 
-		@if($errors->has('content'))
-			@foreach($errors->get('content', '<div class="error">:message</div>') as $error)
-				{{ $error }}
-			@endforeach
-		@endif
-		{{ Form::label('content-label', 'Conteúdo') }} <br />
-		{{ Form::textarea('content', Input::old('content'), $errors->has('content') ? array('class' => 'error') : array()) }} <br />
-
-		<br />
-		{{ Form::submit('Enviar', array('id' => 'submit')) }}
-	{{ Form::close() }}
-
+<?php
+	echo Form::open(URL::to('blog/add'), 'POST', array('class' => 'form-signin'));
+		echo '<h2 class="form-signin-heading">Por favor, efetue a autenticação</h2>';
+		echo Form::text('email', null, array('class' => 'input-block-level', 'placeholder' => 'E-mail'));
+		echo Form::password('password', array('class' => 'input-block-level', 'placeholder' => 'Senha'));
+		echo Form::submit('Autenticar', array('class' => 'btn btn-large btn-primary'));
+	echo Form::close();
+?>
+</div>
 @endsection
