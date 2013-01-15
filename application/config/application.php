@@ -193,6 +193,7 @@ return array(
 		'URI'        	=> 'Laravel\\URI',
 		'Validator'  	=> 'Laravel\\Validator',
 		'View'       	=> 'Laravel\\View',
+
 		'Alert'          => 'Bootstrapper\\Alert',
 		'Badge'          => 'Bootstrapper\\Badge',
 		'Breadcrumb'     => 'Bootstrapper\\Breadcrumb',
