@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="769f5b40-4fc7-4f82-8e5e-03bb78d6a69e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Quasar.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quasar/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/other.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quasar/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/testrunner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quasar/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Quasar/wsgi.py" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\.project\_ide_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\bundles.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\config\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\config\application.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\config\auth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\config\cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\config\database.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\config\error.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\config\mimes.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\config\session.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\config\strings.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\controllers\base.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\controllers\home.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\ar\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\ar\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\bg\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\bg\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\br\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\br\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\da\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\da\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\de\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\de\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\el\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\el\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\en\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\en\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\fi\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\fi\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\fr\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\fr\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\he\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\he\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\hu\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\hu\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\id\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\id\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\it\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\it\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\ja\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\ja\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\nl\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\nl\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\pl\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\pl\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\pt\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\pt\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\ru\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\ru\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\sq\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\sq\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\sr\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\sr\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\sv\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\sv\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\tr\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\language\tr\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\libraries\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\migrations\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\models\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\models\constraint.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\routes.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\start.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\tasks\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\tests\example.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\views\_default\main.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\views\error\404.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\views\error\500.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\application\views\home\index.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\artisan" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\bundles\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\bundles\docs\libraries\markdown.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\bundles\docs\routes.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\bundles\docs\views\page.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\bundles\docs\views\template.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\asset.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\auth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\auth\drivers\driver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\auth\drivers\eloquent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\auth\drivers\fluent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\autoloader.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\blade.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\bundle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cache\drivers\apc.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cache\drivers\database.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cache\drivers\driver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cache\drivers\file.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cache\drivers\memcached.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cache\drivers\memory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cache\drivers\redis.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cache\drivers\sectionable.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cache\drivers\wincache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\artisan.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\command.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\dependencies.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\tasks\bundle\bundler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\tasks\bundle\providers\github.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\tasks\bundle\providers\provider.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\tasks\bundle\publisher.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\tasks\bundle\repository.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\tasks\help.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\tasks\help.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\tasks\key.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\tasks\migrate\database.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\tasks\migrate\migrator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\tasks\migrate\resolver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\tasks\migrate\stub.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\tasks\route.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\tasks\session\manager.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\tasks\session\migration.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\tasks\task.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\tasks\test\phpunit.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\tasks\test\runner.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cli\tasks\test\stub.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\config.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\cookie.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\core.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\crypter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\connection.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\connectors\connector.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\connectors\mysql.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\connectors\postgres.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\connectors\sqlite.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\connectors\sqlserver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\eloquent\model.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\eloquent\pivot.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\eloquent\query.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\eloquent\relationships\belongs_to.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\eloquent\relationships\has_many.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\eloquent\relationships\has_many_and_belongs_to.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\eloquent\relationships\has_one.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\eloquent\relationships\has_one_or_many.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\eloquent\relationships\relationship.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\exception.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\expression.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\grammar.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\query.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\query\grammars\grammar.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\query\grammars\mysql.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\query\grammars\postgres.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\query\grammars\sqlite.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\query\grammars\sqlserver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\query\join.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\schema.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\schema\grammars\grammar.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\schema\grammars\mysql.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\schema\grammars\postgres.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\schema\grammars\sqlite.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\schema\grammars\sqlserver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\database\schema\table.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\artisan\commands.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\artisan\tasks.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\auth\config.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\auth\usage.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\bundles.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\cache\config.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\cache\usage.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\changes.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\config.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\contents.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\contrib\command-line.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\contrib\github.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\contrib\tortoisegit.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\controllers.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\database\config.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\database\eloquent.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\database\fluent.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\database\migrations.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\database\raw.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\database\redis.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\database\schema.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\encryption.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\events.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\files.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\home.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\input.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\install.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\ioc.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\loading.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\localization.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\logging.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\models.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\profiler.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\requests.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\routing.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\session\config.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\session\usage.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\strings.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\testing.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\urls.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\validation.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\views\assets.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\views\forms.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\views\home.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\views\html.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\views\pagination.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\documentation\views\templating.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\error.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\event.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\file.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\fluent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\form.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\hash.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\helpers.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\html.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\input.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\ioc.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\lang.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\laravel.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\log.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\memcached.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\messages.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\paginator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\pluralizer.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\profiling\profiler.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\profiling\profiler.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\profiling\profiler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\profiling\template.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\redirect.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\redis.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\request.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\response.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\routing\controller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\routing\filter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\routing\route.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\routing\router.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\section.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\session.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\session\drivers\apc.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\session\drivers\cookie.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\session\drivers\database.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\session\drivers\driver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\session\drivers\file.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\session\drivers\memcached.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\session\drivers\memory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\session\drivers\redis.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\session\drivers\sweeper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\session\payload.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\str.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\bundles.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\config\application.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\config\auth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\config\cache.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\config\database.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\config\error.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\config\local\database.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\config\mimes.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\config\session.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\config\strings.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\controllers\admin\panel.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\controllers\auth.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\controllers\filter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\controllers\home.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\controllers\restful.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\controllers\template\basic.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\controllers\template\named.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\controllers\template\override.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\dashboard\repository.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\language\en\pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\language\en\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\language\sp\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\libraries\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\migrations\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\models\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\models\autoloader.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\models\model.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\models\repositories\user.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\models\user.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\routes.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\start.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\tasks\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\views\error\404.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\views\error\500.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\views\home\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\views\tests\basic.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\application\views\tests\nested.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\bundles\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\bundles\dashboard\config\meta.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\bundles\dashboard\controllers\panel.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\bundles\dashboard\models\repository.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\bundles\dashboard\routes.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\bundles\dummy\routes.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\bundles\dummy\start.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\asset.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\auth.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\autoloader.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\blade.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\bundle.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\config.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\controller.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\cookie.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\database.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\eloquent.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\event.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\fluent.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\form.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\hash.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\html.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\input.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\ioc.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\lang.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\messages.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\query.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\redirect.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\request.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\response.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\route.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\routing.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\session.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\str.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\uri.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\url.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\validator.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\cases\view.test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\phpunit.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\storage\cache\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\storage\database\application.sqlite" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\storage\files\desert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\storage\logs\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\storage\sessions\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\tests\storage\views\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\uri.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\url.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\validator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Application.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Command\Command.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Command\HelpCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Command\ListCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Formatter\OutputFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Formatter\OutputFormatterInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Formatter\OutputFormatterStyle.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Formatter\OutputFormatterStyleInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Helper\DialogHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Helper\FormatterHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Helper\Helper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Helper\HelperInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Helper\HelperSet.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Input\ArgvInput.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Input\ArrayInput.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Input\Input.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Input\InputArgument.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Input\InputDefinition.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Input\InputInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Input\InputOption.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Input\StringInput.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Output\ConsoleOutput.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Output\ConsoleOutputInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Output\NullOutput.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Output\Output.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Output\OutputInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Output\StreamOutput.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Shell.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Tester\ApplicationTester.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\Tester\CommandTester.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\Console\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\ApacheRequest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Cookie.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\FileBag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\File\Exception\AccessDeniedException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\File\Exception\FileException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\File\Exception\FileNotFoundException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\File\Exception\UnexpectedTypeException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\File\Exception\UploadException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\File\File.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\File\MimeType\ExtensionGuesser.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\File\MimeType\ExtensionGuesserInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\File\MimeType\FileBinaryMimeTypeGuesser.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\File\MimeType\FileinfoMimeTypeGuesser.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\File\MimeType\MimeTypeExtensionGuesser.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\File\MimeType\MimeTypeGuesser.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\File\MimeType\MimeTypeGuesserInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\File\UploadedFile.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\HeaderBag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\JsonResponse.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\LaravelRequest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\LaravelResponse.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\ParameterBag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\RedirectResponse.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Request.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\RequestMatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\RequestMatcherInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Resources\stubs\SessionHandlerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Response.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\ResponseHeaderBag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\ServerBag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Attribute\AttributeBagInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Attribute\NamespacedAttributeBag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Flash\AutoExpireFlashBag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Flash\FlashBag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Flash\FlashBagInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Session.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\SessionBagInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\SessionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Handler\MemcacheSessionHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Handler\MemcachedSessionHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Handler\MongoDbSessionHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeFileSessionHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeSessionHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Handler\NullSessionHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Handler\PdoSessionHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\MetadataBag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\MockArraySessionStorage.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\MockFileSessionStorage.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Proxy\AbstractProxy.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Proxy\NativeProxy.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Proxy\SessionHandlerProxy.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\SessionStorageInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\StreamedResponse.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\vendor\Symfony\Component\HttpFoundation\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\laravel\view.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\license.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\paths.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\public\.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\public\bundles\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\public\css\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\public\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\public\img\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\public\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\public\js\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\public\laravel\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\public\laravel\img\logoback.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\public\laravel\js\modernizr-2.5.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\public\laravel\js\prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\public\laravel\js\scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\storage\cache\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\storage\database\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\storage\logs\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\storage\sessions\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\storage\views\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Raphael\Desktop\venvs\projects\Quasar\storage\work\.gitignore" afterPath="" />
+    </list>
+    <ignored path="Quasar.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="769f5b40-4fc7-4f82-8e5e-03bb78d6a69e" time="1370538415107" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Quasar" />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quasar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quasar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quasar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quasar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quasar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quasar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pytest/Scripts/python.exe" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RunManager" selected="Django server.Quasar">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Quasar" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Quasar" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Quasar" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Quasar" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Quasar" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Quasar" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Django server.Quasar" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="769f5b40-4fc7-4f82-8e5e-03bb78d6a69e" name="Default" comment="" />
+      <created>1370538412625</created>
+      <updated>1370538412625</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6700337" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+</project>
+
